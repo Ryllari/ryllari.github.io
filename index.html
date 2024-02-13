@@ -1,14 +1,69 @@
+<!DOCTYPE html>
 <html>
+<head>
+<title>Ryllari Costa</title>
+<style>
+body {
+  font-family: helvetica;
+  margin-left: 5%;
+}
+
+h4 {
+  text-align: right;
+}
+
+#resume {
+  font-size: 20px;
+}
+
+h4 a {
+  text-decoration: none;
+  color: #696969;
+}
+
+.intro {
+  margin-left: -5%;
+  background-color: #333333;
+  padding-left: 10%;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+
+.intro-content {
+  color: white;
+  animation: fadeInAnimation ease 5s;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+footer {
+	margin-top: 5%;
+	margin-left: -5%;
+}
+
+</style>
+</head>
 <body>
-<h4 style="text-align:right"><strong><a href="#about" target="_self"><span style="color:#696969">About me</span></a></strong>&nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; <strong><a href="#talks"><span style="color:#696969">Talks</span></a></strong>&nbsp; &nbsp; &nbsp; |</h4>
+<header>
+<h4><a href="#about" target="_self">About me</a>&nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; <a href="#talks">Talks</a>&nbsp; &nbsp; &nbsp; </h4>
+</header>
 
-<hr />
-<p>&nbsp;</p>
+<div class="intro">
+<div class="intro-content">
+<h1>Hello, world!</h1>
 
-<h1>Hello, world!&nbsp;</h1>
-
-<p>I&#39;m <strong>Ryllari</strong>, a brazilian software developer and computer engineer.<br />
+<p id="resume">I&#39;m <strong>Ryllari</strong>, a brazilian software developer and computer engineer.<br />
 &nbsp;</p>
+</div>
+</div>
 
 <h2><a id="about" name="about">About me</a></h2>
 
@@ -16,10 +71,10 @@
 
 <p>Member of PyLadies Brazil, where I was co-organizer of the PyLadies Fortaleza chapter between 2017 and 2020. Big Kahuna of the online edition of the Python Nordeste conference (2020/2021). Member of the Python Brazil community since 2017, having worked locally in the Python User Groups of the states of Cear&aacute; (2017-2020) and Rio Grande do Norte (2021-present).</p>
 
-<p>I am enthusiastic about encouraging and supporting the growth of women in technology.<br />
-&nbsp;</p>
+<p>I am enthusiastic about encouraging and supporting the growth of women in technology.</p>
 
-<hr />
+<p>&nbsp;</p>
+<p>-</p>
 <p>&nbsp;</p>
 
 <h2><a id="talks" name="talks">Talks</a></h2>
@@ -32,21 +87,21 @@
 
 <p>&nbsp;</p>
 
-<div style="page-break-after: always"><span style="display:none">&nbsp;</span></div>
+<footer>
+<hr />
 
 <table align="center" border="0" cellpadding="1" cellspacing="1" style="height:25px; width:40px">
 	<tbody>
 		<tr>
 			<td>
-			<p><a href="https://www.linkedin.com/in/ryllari/"><img alt="" height="20" src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png" style="float:right" width="20" /></a></p>
+			<a href="https://www.linkedin.com/in/ryllari/"><img alt="" height="20" src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png" style="float:right" width="20" /></a>
 			</td>
 			<td>
-			<p style="text-align:center"><a href="https://github.com/ryllari"><img alt="" height="20" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="20" /></a></p>
+			<a href="https://github.com/ryllari"><img alt="" height="20" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="20" /></a>
 			</td>
 		</tr>
 	</tbody>
 </table>
-
-<p style="text-align:right">&nbsp; &nbsp; &nbsp; &nbsp;</p>
+</footer>
 </body>
 </html>
